@@ -3,3 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1>span{
+    display: inline-block;
+    margin: 10px 20px;
+}
+h1>span::first-letter{
+    font: 50px sans-serif ;
+    color: chocolate;
+}
